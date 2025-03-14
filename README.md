@@ -28,18 +28,18 @@ Embedded Rust programs for the ESP32-C3 MCU. Demonstrating practical application
 - For more information - [Guide](https://docs.esp-rs.org/book/installation/index.html)
 
 ### Components Explored
-- [ ] GPIO
-- [ ] ADCs
+- [x] GPIO
+- [x] ADCs
 - [ ] Timers and Counters
 - [ ] PWM
 - [ ] Serial Communication
 
 ### Peripherals Explored
-- [ ] LED Display
-- [ ] Push Buttons
-- [ ] PIR Motion Sensor
+- [x] LED Display
+- [x] Push Buttons
+- [x] PIR Motion Sensor
 - [ ] Keypad
-- [ ] Potentiometer
+- [x] Potentiometer
 - [ ] NTC Temperature Sensor
 - [ ] Analog Joystick
 - [ ] Photoresistor Module (LDR)

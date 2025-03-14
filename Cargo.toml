@@ -1,3 +1,3 @@
 [workspace]
-members = ["a1_blinky"]
+members = ["a1_blinky", "a2_button_blinky", "a3_press_counter", "a4_pir_sensor", "b1_voltmeter"]
 resolver = "2"
