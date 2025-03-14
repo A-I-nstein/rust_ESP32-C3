@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "a_blinky"
+name = "a1_blinky"
 version = "0.1.0"
 dependencies = [
  "esp-backtrace",
