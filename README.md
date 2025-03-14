@@ -33,3 +33,15 @@ Embedded Rust programs for the ESP32-C3 MCU. Demonstrating practical application
 - [ ] Timers and Counters
 - [ ] PWM
 - [ ] Serial Communication
+
+### Peripherals Explored
+- [ ] LED Display
+- [ ] Push Buttons
+- [ ] PIR Motion Sensor
+- [ ] Keypad
+- [ ] Potentiometer
+- [ ] NTC Temperature Sensor
+- [ ] Analog Joystick
+- [ ] Photoresistor Module (LDR)
+- [ ] Servo
+- [ ] Real-Time Clock Module
