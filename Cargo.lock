@@ -77,6 +77,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "b3_joystick"
+version = "0.1.0"
+dependencies = [
+ "esp-backtrace",
+ "esp-hal",
+ "esp-println",
+ "log",
+]
+
+[[package]]
 name = "basic-toml"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
