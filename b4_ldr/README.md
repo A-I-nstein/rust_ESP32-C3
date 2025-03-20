@@ -9,3 +9,6 @@ This program measures the light condition in the area of exposure.
 - VCC terminal of the joystick is connected to the devkit 5V.
 - GND terminal of the joystick is connected to the devkit GND.
 - The AO terminal of the joystick is connected gpio0 on the devkit.
+
+# Other Examples
+- light_up: Lights up LEDs based on the light condition.
