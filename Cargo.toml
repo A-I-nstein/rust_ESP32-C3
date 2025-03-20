@@ -7,5 +7,6 @@ members = [
     "b1_voltmeter",
     "b2_ntc_sensor",
     "b3_joystick",
+    "b4_ldr",
 ]
 resolver = "2"
