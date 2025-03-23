@@ -30,7 +30,7 @@ Embedded Rust programs for the ESP32-C3 MCU. Demonstrating practical application
 ### Components Explored
 - [x] GPIO
 - [x] ADCs
-- [ ] Timers and Counters
+- [x] Timers and Counters
 - [ ] PWM
 - [ ] Serial Communication
 
