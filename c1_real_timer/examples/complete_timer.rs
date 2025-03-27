@@ -92,6 +92,7 @@ fn main() -> ! {
             .replace(start_stop_button);
         RESET_BUTTON.borrow(cs).borrow_mut().replace(reset_button);
         G_TIMER.borrow(cs).borrow_mut().replace(timer_0);
+        println!("Press button A to start/stop and button B to reset.");
     });
 
     loop {
@@ -126,7 +127,8 @@ fn gpio() {
                             .load_value(MicrosDurationU64::micros(1_000_000))
                             .unwrap();
                         timer_0.enable_interrupt(true);
-                        timer_0.reset();
+                        timer_0.clear_interrupt();
+                        timer_0.start();
                         IS_TIMER_RUNNING.borrow(cs).set(true);
                     }
                     start_stop_button.clear_interrupt();
