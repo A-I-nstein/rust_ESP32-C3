@@ -11,3 +11,6 @@ This program lights up an LED and makes it blink continuously. The LED blinking 
 - LED Cathode(negative terminal) is connected to the devkit GND.
 - A button pin should be connected to gpio0 of the devkit. 
 - A pin of the switch will be connected to the devkit GND.
+
+# Other Examples
+- measure_loop_timer: measures the delay of a software loop using timers.
