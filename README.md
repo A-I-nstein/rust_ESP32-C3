@@ -31,7 +31,7 @@ Embedded Rust programs for the ESP32-C3 MCU. Demonstrating practical application
 - [x] GPIO
 - [x] ADCs
 - [x] Timers and Counters
-- [ ] PWM
+- [x] PWM
 - [ ] Serial Communication
 
 ### Peripherals Explored
