@@ -12,5 +12,6 @@ members = [
     "c2_whack_a_mole",
     "d1_led_fading",
     "d2_servo_motor",
+    "d3_potentiometer_led",
 ]
 resolver = "2"
