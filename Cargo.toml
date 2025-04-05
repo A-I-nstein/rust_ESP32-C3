@@ -9,6 +9,8 @@ members = [
     "b3_joystick",
     "b4_ldr",
     "c1_real_timer",
+    "c2_whack_a_mole",
     "d1_led_fading",
+    "d2_servo_motor",
 ]
 resolver = "2"
