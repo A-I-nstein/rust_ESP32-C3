@@ -13,5 +13,6 @@ members = [
     "d1_led_fading",
     "d2_servo_motor",
     "d3_potentiometer_led",
+    "d4_buzzer",
 ]
 resolver = "2"

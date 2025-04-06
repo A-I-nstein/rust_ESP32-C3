@@ -203,6 +203,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "d4_buzzer"
+version = "0.1.0"
+dependencies = [
+ "esp-backtrace",
+ "esp-hal",
+ "esp-println",
+ "log",
+]
+
+[[package]]
 name = "darling"
 version = "0.20.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
