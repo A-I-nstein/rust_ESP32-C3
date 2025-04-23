@@ -15,5 +15,6 @@ members = [
     "d3_potentiometer_led",
     "d4_buzzer",
     "e1_uart_print",
+    "e2_rtc",
 ]
 resolver = "2"
