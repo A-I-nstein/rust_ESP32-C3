@@ -26,19 +26,11 @@ fn main() -> ! {
 
     esp_println::print!("\x1b[20h");
 
-    let mut w_letter = 0x61;
-    let mut r_letter = [0_u8, 1];
-
     loop {
-        uart_driver.write_bytes(&[w_letter]).unwrap();
-        uart_driver.read_bytes(&mut r_letter).unwrap();
-        println!("{}", r_letter[0] as char);
-
-        if w_letter == 0x7A {
-            w_letter = 0x61;
-        } else {
-            w_letter += 1;
-        }
-        delay.delay_millis(1000_u32);
+        println!("esp_println output");
+        uart_driver
+            .write_bytes("write method output".as_bytes())
+            .unwrap();
+        delay.delay_millis(1000u32);
     }
 }
