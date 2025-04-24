@@ -281,6 +281,7 @@ dependencies = [
 name = "e2_rtc"
 version = "0.1.0"
 dependencies = [
+ "critical-section",
  "esp-backtrace",
  "esp-hal",
  "esp-println",
