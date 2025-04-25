@@ -271,6 +271,7 @@ dependencies = [
 name = "e1_uart_print"
 version = "0.1.0"
 dependencies = [
+ "critical-section",
  "esp-backtrace",
  "esp-hal",
  "esp-println",
