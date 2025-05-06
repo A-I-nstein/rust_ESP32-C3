@@ -16,5 +16,9 @@ members = [
     "d4_buzzer",
     "e1_uart_print",
     "e2_rtc",
+    "z1_embassy_blink"
 ]
 resolver = "2"
+
+[workspace.dependencies]
+esp-hal = { version = "1.0.0-beta.0", features = ["esp32c3", "unstable"] }

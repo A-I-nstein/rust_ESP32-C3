@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 critical-section = "1.2.0"
-esp-hal = { version = "0.23.1", features = ["esp32c3"] }
+esp-hal = { workspace = true }
 esp-backtrace = { version = "0.15.0", features = [
     "esp32c3",
     "panic-handler",

@@ -10,7 +10,7 @@ esp-backtrace = { version = "0.15.1", features = [
     "panic-handler",
     "println",
 ] }
-esp-hal = { version = "0.23.1", features = ["esp32c3"] }
+esp-hal = { workspace = true }
 esp-println = { version = "0.13.1", features = ["esp32c3", "log"] }
 log = "0.4.27"
 nobcd = "0.2.0"

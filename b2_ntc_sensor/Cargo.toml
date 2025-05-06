@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-esp-hal = { version = "0.23.1", features = ["esp32c3"] }
+esp-hal = { workspace = true }
 esp-backtrace = { version = "0.15.0", features = [
     "esp32c3",
     "panic-handler",
