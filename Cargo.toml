@@ -16,7 +16,8 @@ members = [
     "d4_buzzer",
     "e1_uart_print",
     "e2_rtc",
-    "z1_embassy_blink"
+    "z1_embassy_blink",
+    "z2_embassy_timer",
 ]
 resolver = "2"
 
