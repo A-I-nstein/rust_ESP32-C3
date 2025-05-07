@@ -1306,3 +1306,17 @@ dependencies = [
  "esp-println",
  "log",
 ]
+
+[[package]]
+name = "z3_embassy_led_cycling"
+version = "0.1.0"
+dependencies = [
+ "embassy-executor",
+ "embassy-sync",
+ "embassy-time",
+ "esp-backtrace",
+ "esp-hal",
+ "esp-hal-embassy",
+ "esp-println",
+ "log",
+]
