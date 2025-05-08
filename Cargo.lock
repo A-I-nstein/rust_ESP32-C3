@@ -1320,3 +1320,17 @@ dependencies = [
  "esp-println",
  "log",
 ]
+
+[[package]]
+name = "z4_embassy_uart_echo"
+version = "0.1.0"
+dependencies = [
+ "embassy-executor",
+ "embassy-sync",
+ "embassy-time",
+ "esp-backtrace",
+ "esp-hal",
+ "esp-hal-embassy",
+ "esp-println",
+ "log",
+]
