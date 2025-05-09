@@ -20,6 +20,7 @@ members = [
     "z2_embassy_timer",
     "z3_embassy_led_cycling",
     "z4_embassy_uart_echo",
+    "z5_embassy_click_counter",
 ]
 resolver = "2"
 

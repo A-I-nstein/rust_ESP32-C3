@@ -1334,3 +1334,17 @@ dependencies = [
  "esp-println",
  "log",
 ]
+
+[[package]]
+name = "z5_embassy_click_counter"
+version = "0.1.0"
+dependencies = [
+ "embassy-executor",
+ "embassy-sync",
+ "embassy-time",
+ "esp-backtrace",
+ "esp-hal",
+ "esp-hal-embassy",
+ "esp-println",
+ "log",
+]
